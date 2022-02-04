@@ -20,19 +20,6 @@ body {
   background-color: var(--brand-color-02);
 }
 
-/* *****active, hover, focus***** */
-.link-active,
-.link:hover,
-.link:focus {
-  color: var(--brand-color-01);
-}
-
-.button-active,
-.button:hover,
-.button:focus {
-  background-color: var(--highlight-button-color);
-}
-
 /* *****fonts***** */
 .logo {
   font-family: 'Releway', sans-serif;
@@ -55,6 +42,12 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
+}
+.title .button {
+  background-color: var(--brand-color-01);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
 }
 .benefits {
   font-size: 14px;
@@ -82,4 +75,31 @@ body {
 .address-footer {
   color: #ffffff;
   font-size: 14px;
+}
+
+/* *****Portfolio***** */
+.gallery-filter .button-active,
+.gallery-filter .button {
+  font-weight: 500;
+  font-size: 16px;
+}
+.gallery-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+.gallery-desc {
+  font-size: 16px;
+}
+
+/* *****active, hover, focus***** */
+.link-active,
+.link:hover,
+.link:focus {
+  color: var(--brand-color-01);
+}
+
+.button-active,
+.button:hover,
+.button:focus {
+  background-color: var(--highlight-button-color);
 }
