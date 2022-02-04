@@ -1,76 +1,27 @@
+/*colors, body*/
+:root {
+  --background-color: #e5e5e5;
+  --brand-color-01: #2196f3;
+  --brand-color-02: #2f303a;
+  --highlight-button-color: #188ce8;
+}
+
 body {
-  font-family: 'Raleway', 'Roboto', sans-serif;
-}
-
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  text-decoration: none;
-}
-
-.nav-link {
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.mail-link {
-  text-decoration: none;
-  font-size: 14px;
-}
-.tel-link {
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.headline {
-  background: #2f303a;
-}
-.headline-text {
-  font-size: 44px;
-  color: #ffffff;
-}
-.headline-button {
-  background: #2196f3;
-  color: #ffffff;
-  font-size: 16px;
-}
-
-.benefits-subtitle {
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.benefits-text {
-  font-size: 14px;
-}
-
-.desc-title {
-  font-size: 36px;
-}
-
-.section-title {
-  font-size: 36px;
-}
-
-.section-subtitle {
-  font-size: 16px;
-  font-weight: 500;
+  font-family: 'Roboto', 'Releway', sans-serif;
   color: #212121;
 }
-.section-desc {
-  font-size: 16px;
-  font-weight: 400;
-  color: #757575;
+
+/* active, hover, focus */
+.link-active,
+.link:hover,
+.link:focus {
+  color: var(--brand-color-01);
 }
 
-.filter-button {
-  font-size: 16px;
+.button-active,
+.button:hover,
+.button:focus {
+  background-color: var(--highlight-button-color);
 }
-.gallery-subtitle {
-  font-size: 18px;
-  font-weight: 700;
-  color: #212121;
-}
-.gallery-desc {
-  font-size: 16px;
-  color: #757575;
-}
+
+/*fonts*/
