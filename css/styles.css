@@ -1,17 +1,26 @@
-/*colors, body*/
+/* *****colors, body**** */
 :root {
   --background-color: #e5e5e5;
   --brand-color-01: #2196f3;
   --brand-color-02: #2f303a;
   --highlight-button-color: #188ce8;
 }
-
 body {
+  background-color: var(--background-color);
   font-family: 'Roboto', 'Releway', sans-serif;
   color: #212121;
 }
+.header {
+  background-color: #ffffff;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.footer {
+  background-color: var(--brand-color-02);
+}
 
-/* active, hover, focus */
+/* *****active, hover, focus***** */
 .link-active,
 .link:hover,
 .link:focus {
@@ -24,4 +33,53 @@ body {
   background-color: var(--highlight-button-color);
 }
 
-/*fonts*/
+/* *****fonts***** */
+.logo {
+  font-family: 'Releway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+}
+.address-header {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+}
+.title {
+  background-color: var(--brand-color-02);
+}
+.title .slogan {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+}
+.benefits {
+  font-size: 14px;
+}
+.benefits-subtitle {
+  font-weight: 700;
+}
+.benefits-text {
+  color: #757575;
+}
+.desc-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team-list {
+  font-size: 16px;
+}
+.team-subtitle {
+  font-weight: 500;
+}
+.address-footer {
+  color: #ffffff;
+  font-size: 14px;
+}
