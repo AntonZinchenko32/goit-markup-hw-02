@@ -1,26 +1,23 @@
-/* *****colors, body**** */
+/* *****Declaring variables***** */
 :root {
   --background-color: #e5e5e5;
+  --text-color: #212121;
   --brand-color-01: #2196f3;
   --brand-color-02: #2f303a;
   --highlight-button-color: #188ce8;
 }
+
+/* *****Styling body***** */
 body {
   background-color: var(--background-color);
   font-family: 'Roboto', 'Releway', sans-serif;
-  color: #212121;
+  color: var(--text-color);
 }
+
+/* *****Main page elements styling by classes***** */
 .header {
   background-color: #ffffff;
 }
-.team {
-  background-color: #f5f4fa;
-}
-.footer {
-  background-color: var(--brand-color-02);
-}
-
-/* *****fonts***** */
 .logo {
   color: var(--brand-color-01);
   font-family: 'Releway', sans-serif;
@@ -72,6 +69,9 @@ body {
   font-size: 36px;
   line-height: 1.2;
 }
+.team {
+  background-color: #f5f4fa;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -87,6 +87,9 @@ body {
 .team-desc {
   color: #757575;
 }
+.footer {
+  background-color: var(--brand-color-02);
+}
 .address-footer {
   color: #ffffff;
   font-size: 14px;
@@ -96,7 +99,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* *****Portfolio***** */
+/* *****Portfolio elements styling by classes***** */
 .gallery-filter .button,
 .gallery-filter .button-active {
   font-weight: 500;
@@ -122,7 +125,7 @@ body {
   line-height: 1.9;
 }
 
-/* *****active, hover, focus***** */
+/* *****Elements behavior***** */
 .link-active,
 .link:hover,
 .link:focus {
