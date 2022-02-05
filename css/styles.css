@@ -131,9 +131,10 @@ body {
 .link:focus {
   color: var(--brand-color-01);
 }
-
-.button-active,
 .button:hover,
-.button:focus {
+.button:focus,
+.button-active:hover,
+.button-active:focus {
   background-color: var(--highlight-button-color);
+  color: #ffffff;
 }
