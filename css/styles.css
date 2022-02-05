@@ -22,18 +22,22 @@ body {
 
 /* *****fonts***** */
 .logo {
+  color: var(--brand-color-01);
   font-family: 'Releway', sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.2;
 }
 .nav {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.1;
 }
 .address-header {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.1;
 }
 .title {
   background-color: var(--brand-color-02);
@@ -42,53 +46,78 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.4;
 }
 .title .button {
   background-color: var(--brand-color-01);
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.9;
 }
 .benefits {
   font-size: 14px;
 }
 .benefits-subtitle {
   font-weight: 700;
+  line-height: 1.1;
 }
 .benefits-text {
   color: #757575;
+  line-height: 1.7;
 }
 .desc-subtitle {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.2;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.2;
 }
 .team-list {
   font-size: 16px;
+  line-height: 1.2;
 }
 .team-subtitle {
   font-weight: 500;
 }
+.team-desc {
+  color: #757575;
+}
 .address-footer {
   color: #ffffff;
   font-size: 14px;
+  line-height: 1.7;
+}
+.address-footer .link {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* *****Portfolio***** */
-.gallery-filter .button-active,
-.gallery-filter .button {
+.gallery-filter .button,
+.gallery-filter .button-active {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.6;
+}
+.gallery-filter .button {
+  background-color: #f5f4fa;
+}
+.gallery-filter .button-active {
+  background-color: var(--brand-color-01);
+  color: #ffffff;
 }
 .gallery-subtitle {
   font-weight: 700;
   font-size: 18px;
+  line-height: 2;
 }
 .gallery-desc {
+  color: #757575;
   font-size: 16px;
+  line-height: 1.9;
 }
 
 /* *****active, hover, focus***** */
