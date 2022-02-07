@@ -18,12 +18,19 @@ body {
 .header {
   background-color: #ffffff;
 }
-.logo {
+.logo-link-first,
+.logo-link-second {
   color: var(--brand-color-01);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+.logo-header .logo-link-second {
+  color: #212121;
+}
+.logo-footer .logo-link-second {
+  color: #ffffff;
 }
 .nav-list {
   font-weight: 500;
@@ -126,7 +133,8 @@ body {
 }
 
 /* *****Remove underlining from links***** */
-.logo,
+.logo-link-first,
+.logo-link-second,
 .link,
 .link-active {
   text-decoration: none;
@@ -150,6 +158,11 @@ body {
 }
 .address-header-list .link {
   color: #757575;
+}
+
+/* *****Change font-style in address section to normal***** */
+.address-footer-list {
+  font-style: normal;
 }
 
 /* *****Elements behavior***** */
