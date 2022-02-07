@@ -25,12 +25,12 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
-.nav {
+.nav-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
 }
-.address-header {
+.address-header-list {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -90,27 +90,27 @@ body {
 .footer {
   background-color: var(--brand-color-02);
 }
-.address-footer {
+.address-footer-list {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.7;
 }
-.address-footer .link {
+.address-footer-list .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* *****Portfolio elements styling by classes***** */
-.gallery-filter .button,
-.gallery-filter .button-active {
+.gallery-filter-list .button,
+.gallery-filter-list .button-active {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
 }
-.gallery-filter .button {
+.gallery-filter-list .button {
   background-color: #f5f4fa;
 }
-.gallery-filter .button-active {
+.gallery-filter-list .button-active {
   background-color: var(--brand-color-01);
   color: #ffffff;
 }
@@ -137,4 +137,23 @@ body {
 .button-active:focus {
   background-color: var(--highlight-button-color);
   color: #ffffff;
+}
+
+/* *****Remove underlining from links***** */
+.logo,
+.link,
+.link-active {
+  text-decoration: none;
+}
+
+/* *****Remove dots from lists***** */
+.nav-list,
+.address-header-list,
+.benefits-list,
+.desc-list,
+.team-list,
+.address-footer-list,
+.gallery-filter-list,
+.gallery-list {
+  list-style-type: none;
 }
