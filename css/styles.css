@@ -10,7 +10,7 @@
 /* *****Styling body***** */
 body {
   background-color: var(--background-color);
-  font-family: 'Roboto', 'Releway', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--text-color);
 }
 
@@ -20,7 +20,7 @@ body {
 }
 .logo {
   color: var(--brand-color-01);
-  font-family: 'Releway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -125,20 +125,6 @@ body {
   line-height: 1.9;
 }
 
-/* *****Elements behavior***** */
-.link-active,
-.link:hover,
-.link:focus {
-  color: var(--brand-color-01);
-}
-.button:hover,
-.button:focus,
-.button-active:hover,
-.button-active:focus {
-  background-color: var(--highlight-button-color);
-  color: #ffffff;
-}
-
 /* *****Remove underlining from links***** */
 .logo,
 .link,
@@ -156,4 +142,26 @@ body {
 .gallery-filter-list,
 .gallery-list {
   list-style-type: none;
+}
+
+/* *****Remove links highlighting***** */
+.link {
+  color: #212121;
+}
+.address-header-list .link {
+  color: #757575;
+}
+
+/* *****Elements behavior***** */
+.link-active,
+.link:hover,
+.link:focus {
+  color: var(--brand-color-01);
+}
+.button:hover,
+.button:focus,
+.button-active:hover,
+.button-active:focus {
+  background-color: var(--highlight-button-color);
+  color: #ffffff;
 }
