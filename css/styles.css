@@ -67,6 +67,7 @@ body {
 .benefits-subtitle {
   font-weight: 700;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 .benefits-text {
   color: #757575;
@@ -86,11 +87,12 @@ body {
   line-height: 1.2;
 }
 .team-list {
-  font-size: 16px;
   line-height: 1.2;
+  font-size: 16px;
 }
 .team-subtitle {
   font-weight: 500;
+  font-size: inherit;
 }
 .team-desc {
   color: #757575;
