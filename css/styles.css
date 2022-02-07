@@ -110,8 +110,7 @@ body {
 }
 
 /* *****Portfolio elements styling by classes***** */
-.gallery-filter-list .button,
-.gallery-filter-list .button-active {
+.gallery-filter-list .button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -121,10 +120,7 @@ body {
 .gallery-filter-list .button {
   background-color: #f5f4fa;
 }
-.gallery-filter-list .button-active {
-  background-color: var(--brand-color-01);
-  color: #ffffff;
-}
+
 .gallery-subtitle {
   font-weight: 700;
   font-size: 18px;
