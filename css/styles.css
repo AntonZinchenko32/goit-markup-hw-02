@@ -10,7 +10,7 @@
 /* *****Styling body***** */
 body {
   background-color: var(--background-color);
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-color);
 }
 
@@ -106,7 +106,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.address-footer-list .link {
+.address-footer-list .address-link {
+  color: #ffffff;
+}
+.address-footer-list .mail-link,
+.address-footer-list .tel-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -136,6 +140,9 @@ body {
 /* *****Remove underlining from links***** */
 .logo-link-first,
 .logo-link-second,
+.address-link,
+.mail-link,
+.tel-link,
 .link,
 .link-active {
   text-decoration: inherit;
@@ -168,7 +175,13 @@ body {
 
 /* *****Elements behavior***** */
 .link-active,
+.address-link:hover,
+.mail-link:hover,
+.tel-link:hover,
 .link:hover,
+.address-link:focus,
+.mail-link:hover:focus,
+.tel-link:hover:focus,
 .link:focus {
   color: var(--brand-color-01);
 }
